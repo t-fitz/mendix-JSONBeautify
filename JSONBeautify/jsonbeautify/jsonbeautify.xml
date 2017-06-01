@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="jsonbeautify.lib.jsonbeautify" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+	<name>Json Beautify Widget</name>
+	<description>A widget to prettify a JSON string</description>
+
+	<properties>
+        <!-- needsEntityContext="true" means this widget can only be used within a DataView -->
+        
+        <!-- entity -->
+		<property key="entityValue" type="entity">
+			<caption>Entity</caption>
+			<category>Data</category>
+			<description>The entity that contains the Json attribute.</description>
+		</property>
+  
+        <!-- attribute -->
+        <property key="attributeValue" type="attribute" entityProperty="entityValue"> 
+			<caption>Attribute</caption>
+			<category>Data</category>
+			<description>The Json attribute.</description>
+			<attributeTypes> 
+				<attributeType name="String"/>
+			</attributeTypes>
+		</property>
+        
+	</properties>
+</widget>
