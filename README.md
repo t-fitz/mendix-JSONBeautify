@@ -20,20 +20,18 @@ Put the widget on the page.
 
 Set your Data parameters for the Entity and Attribute that you want to beautify.
 
-![JSON Beautify Settings](/images/Widget Options.PNG?raw=true "JSON Beautify Settings")
+![JSON Beautify Settings](/images/Widget-Options.PNG?raw=true "JSON Beautify Settings")
 
 Once you've selected the Entity and Attrributes you're good to go. Run your project and you're done.
 
 #### Example time
 
 Here's an example of a JSON string before it's beautified.
-
-![Unbeautified JSON String](/images/Unbeautified JSON String.PNG?raw=true "Unbeautified JSON String")
+![Unbeautified JSON String](/images/Unbeautified-JSON-String.PNG?raw=true "Unbeautified JSON String")
 
 
 Here's an example of a JSON string after it's been beautified.
-
-![Beautified JSON String](/images/Beautified JSON String.PNG?raw=true "Beautified JSON String")
+![Beautified JSON String](/images/Beautified-JSON-String.PNG?raw=true "Beautified JSON String")
 
 ----
 
